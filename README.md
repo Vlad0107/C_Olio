@@ -1,1 +1,46 @@
-# C_Olio
+# C++ Harjoitustyo
+
+Tekija: VLadislav Melnitsuk
+
+/*Harjoitustyö on tehty kohtaan 13 asti*/
+Tehdyt ominaisuudet:
+Yhden pisteen työn vaatimukset:
+
+Työ sisältää valinnat 0 - 7.
+
+Valinta 1 kysyy käyttäjältä koulutusohjelman nimen ja lisää Koulutusohjelma-olion Koulu-luokassa olevaan säiliöön (oletuksena, että vectoria käytetty).
+
+Valinta 2 tulostaa kaikkien koulutusohjelmien nimet näytölle.
+
+Valinta 3 tulostaa koulutusohjelmien lukumäärän näytölle.
+
+Valinta 4 kysyy koulutusohjelman nimen ja jos sen niminen ohjelma löytyy, lisää opettajan koulutusohjelmaan. Jos ei löydy, tulostetaan tästä tieto. Opettajan tiedot kysytään käyttäjältä.
+
+Valinta 5 kysyy koulutusohjelman nimen ja tulostaa löytyneen ohjelman opettajien tiedot näytölle. Jos ei löydy, tulostetaan tästä tieto.
+
+Valinta 6 kuten 4, mutta lisätään opiskelija.
+
+Valinta 7 kuten 5, mutta tulostetaan opiskelijat.
+Kahden pisteen työn vaatimukset:
+
+Työ sisältää yhden pisteen vaatimukset ja lisäksi valinnat 8-10 sekä virheellisen syötteen tarkistuksen.
+
+Valinta 8 kysyy koulutusohjelman nimen ja poistaa sen Koulu-luokassa olevasta säiliöstä. Jos ei löydy tulostetaan tästä tieto.
+
+Valinta 9 kysyy koulutusohjelman nimen sekä opettajan tunnuksen. Tämän jälkeen poistetaan ko. opettaja.
+
+Valinta 10 kuten 9, mutta poistetaan opiskelija käyttäen opiskelijanumeroa.
+
+Ohjelman pitää lisäksi toipua virheellisestä syötteestä.
+
+Vinkki poistoon: vector::erase
+Kolmen pisteen työn vaatimukset:
+
+Työ sisältää kahden pisteen vaatimukset ja valinnat 11-15.
+
+Valinta 11 kysyy koulutusohjelman nimen ja päivittää sen uudelle nimelle. Jos ei löydy, tulostetaan tieto.
+
+Valinta 12 kysyy koulutusohjelman nimen sekä opettajan tunnuksen. Tämän jälkeen päivitetään tiedot käyttäjältä kysyttävillä uusilla tiedoilla.
+
+Valinta 13 kuten 12, mutta päivitetään opiskelijan tiedot käyttäen opiskelijanumeroa.
+
